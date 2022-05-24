@@ -5,7 +5,7 @@ class QuestionsController < ApplicationController
   def answer
     answer_array = ["Great!", "Silly question, get dressed and go to work!", "I don't care, get dressed and go to work!"]
 
-    @question =  params[:question]
+    @question = params[:question]
     #   @members = @members. { |member| member.start_with?(params[:question]) }
     # end
     # if input is "I am going to work" - answer is "Great!"
